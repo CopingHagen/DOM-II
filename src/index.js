@@ -27,6 +27,13 @@ window.onload = function (evt) {
     document.body.addEventListener('dblclick', evt => {
         evt.target.innerHTML = ''
     })
+
+    // 5- keydown
+    window.addEventListener('keydown', evt => {
+        if (evt.key == 6) {
+            document.body.innerHTML = '<h1>YOU RAN ORDER 66</h1>'
+        }
+    })
 }
 
 
